@@ -10,7 +10,7 @@ const NavContainer = styled.span`
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #5e6a6e;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif !important;
   color: white;
   min-height: 60px !important;
   align-items: center;
