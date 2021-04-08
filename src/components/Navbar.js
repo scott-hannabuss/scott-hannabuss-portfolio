@@ -12,7 +12,7 @@ const NavContainer = styled.span`
   background-color: #5e6a6e;
   font-family: "Lato", sans-serif;
   color: white;
-  min-height: 40px;
+  min-height: 60px !important;
   align-items: center;
 `;
 
