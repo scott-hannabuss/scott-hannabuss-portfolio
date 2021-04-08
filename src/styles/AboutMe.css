@@ -1,0 +1,9 @@
+.about-me-header {
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+  .about-me-container {
+    margin-top: 15%;
+  }
+}

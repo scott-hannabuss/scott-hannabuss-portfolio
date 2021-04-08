@@ -1,0 +1,15 @@
+.nav-link {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1025px) {
+  .nav-link {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .nav-link {
+    text-decoration: underline;
+  }
+}

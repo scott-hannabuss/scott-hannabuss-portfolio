@@ -1,0 +1,67 @@
+.portfolio-header {
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.project-header,
+.project-header-desktop {
+  color: white;
+  margin-top: 5%;
+}
+
+.project-description-desktop {
+  color: white;
+  margin-left: 10%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.project-description-mobile {
+  color: white;
+  margin-left: 5%;
+  text-align: justify;
+}
+
+.project-description-desktop a {
+  text-decoration: underline;
+  color: white;
+}
+
+.project-description-mobile a {
+  text-decoration: underline;
+  color: white;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1025px) {
+  .portfolio-header {
+    margin-bottom: 10%;
+    margin-top: 10%;
+  }
+  .project-header,
+  .project-header-desktop {
+    margin-top: 15%;
+    margin-bottom: 10%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .portfolio-header {
+    margin-bottom: 20%;
+    margin-top: 20%;
+  }
+  .project-header {
+    margin-top: 25%;
+    margin-bottom: 20%;
+  }
+  .project-header-desktop {
+    margin-top: 10%;
+  }
+  .project-description-desktop {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .project-description-mobile {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
