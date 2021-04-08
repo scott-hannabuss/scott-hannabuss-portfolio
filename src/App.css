@@ -6,3 +6,11 @@ body {
   background-color: #7a93ac;
   font-family: "Lato", sans-serif;
 }
+
+a {
+  color: white;
+}
+
+a:-webkit-any-link {
+  color: white;
+}
