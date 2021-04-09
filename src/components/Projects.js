@@ -41,19 +41,6 @@ const Projects = () => {
           Portfolio
         </h1>
       </PortfolioHeader>
-      <h2 className="project-header-desktop">SURREAL ESTATE</h2>
-      <ProjectContainer>
-        <ProjectImg src={surrealestateimage} />
-        <p className="project-description-desktop">
-          A mock property website designed using React. More advanced features
-          include the ability to login via Facebook and save properties which
-          will then render in the "saved properties" page. You can view a
-          deployed version of the project{" "}
-          <a href="https://surreal-estate-ten.vercel.app/"> here</a> or you can
-          view the project on Github{" "}
-          <a href="https://github.com/scott-hannabuss/Surreal-Estate">here.</a>
-        </p>
-      </ProjectContainer>
 
       <h2 className="project-header">WEATHER APP</h2>
       <ProjectContainer>
@@ -69,19 +56,17 @@ const Projects = () => {
         <ProjectImg src={weatherappimage} />
       </ProjectContainer>
 
-      <h2 className="project-header-desktop">BOOK LIBRARY API</h2>
+      <h2 className="project-header-desktop">SURREAL ESTATE</h2>
       <ProjectContainer>
-        <ProjectImg src={booklibraryimage} />
+        <ProjectImg src={surrealestateimage} />
         <p className="project-description-desktop">
-          A RESTful API which can take incoming HTTP requests and perform
-          various CRUD operations on a MySQL relational database based on these
-          incoming requests. The database contains book records which can have
-          authors and genres attached to them. The application utilises various
-          technologies including SQL (and MySQL Workbench), Docker, Express,
-          Sequelize, Mocha, Chai and SuperTest. The code can be viewed on GitHub{" "}
-          <a href="https://github.com/scott-hannabuss/book-library-api">here</a>{" "}
-          or a sample of the deployed database can be viewed on Heroku{" "}
-          <a href="https://booklibrarymcrcodes.herokuapp.com/books"> here.</a>
+          A mock property website designed using React. More advanced features
+          include the ability to login via Facebook and save properties which
+          will then render in the "saved properties" page. You can view a
+          deployed version of the project{" "}
+          <a href="https://surreal-estate-ten.vercel.app/"> here</a> or you can
+          view the project on Github{" "}
+          <a href="https://github.com/scott-hannabuss/Surreal-Estate">here.</a>
         </p>
       </ProjectContainer>
 
@@ -101,6 +86,22 @@ const Projects = () => {
           </a>
         </p>
         <ProjectImg src={techtestimage} />
+      </ProjectContainer>
+
+      <h2 className="project-header-desktop">BOOK LIBRARY API</h2>
+      <ProjectContainer>
+        <ProjectImg src={booklibraryimage} />
+        <p className="project-description-desktop">
+          A RESTful API which can take incoming HTTP requests and perform
+          various CRUD operations on a MySQL relational database based on these
+          incoming requests. The database contains book records which can have
+          authors and genres attached to them. The application utilises various
+          technologies including SQL (and MySQL Workbench), Docker, Express,
+          Sequelize, Mocha, Chai and SuperTest. The code can be viewed on GitHub{" "}
+          <a href="https://github.com/scott-hannabuss/book-library-api">here</a>{" "}
+          or a sample of the deployed database can be viewed on Heroku{" "}
+          <a href="https://booklibrarymcrcodes.herokuapp.com/books"> here.</a>
+        </p>
       </ProjectContainer>
 
       <h2 className="project-header-desktop">MUSIC LIBRARY API</h2>
