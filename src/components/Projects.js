@@ -108,7 +108,7 @@ const Projects = () => {
       <h2 className="project-header">EXPRESS API</h2>
       <ProjectContainer>
         <p className="project-description-mobile">
-          A web API that makes a series of basic javascript functions accessible
+          An API that makes a series of basic javascript functions accessible
           through HTTP requests. The project can be viewed via GitHub{" "}
           <a href="https://github.com/scott-hannabuss/javascript-basics-express">
             here.
