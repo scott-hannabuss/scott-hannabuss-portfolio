@@ -60,9 +60,10 @@ const Projects = () => {
       <ProjectContainer>
         <ProjectImg src={surrealestateimage} />
         <p className="project-description-desktop">
-          A mock property website designed using React. More advanced features
-          include the ability to login via Facebook and save properties which
-          will then render in the "saved properties" page. You can view a
+          A mock property website designed using React. Users can view the
+          current property listings and filter them by city or price, as well as
+          add their own properties to sell. The properties are added and
+          retrieved from a separately deployed Heroku database. You can view a
           deployed version of the project{" "}
           <a href="https://surreal-estate-ten.vercel.app/"> here</a> or you can
           view the project on Github{" "}
@@ -78,9 +79,9 @@ const Projects = () => {
           user inputs a relevant search term such as "moon" or "rocket" into the
           search area, the corresponding images from NASA's image database will
           be displayed. A deployed version of the app can be viewed{" "}
-          <a href="https://react-tech-test.vercel.app/"> here</a> or a link to
-          the code on GitHub can be viewed{" "}
-          <a href="https://github.com/scott-hannabuss/React-Tech-Test">
+          <a href="https://nasa-image-search-mcr-codes.vercel.app/"> here</a> or
+          a link to the code on GitHub can be viewed{" "}
+          <a href="https://github.com/scott-hannabuss/Nasa-Image-Search">
             {" "}
             here.
           </a>
@@ -104,6 +105,18 @@ const Projects = () => {
         </p>
       </ProjectContainer>
 
+      <h2 className="project-header">EXPRESS API</h2>
+      <ProjectContainer>
+        <p className="project-description-mobile">
+          A web API that makes a series of basic javascript functions accessible
+          through HTTP requests. The project can be viewed via GitHub{" "}
+          <a href="https://github.com/scott-hannabuss/javascript-basics-express">
+            here.
+          </a>
+        </p>
+        <ProjectImg src={expressbasics} />
+      </ProjectContainer>
+
       <h2 className="project-header-desktop">MUSIC LIBRARY API</h2>
       <ProjectContainer>
         <ProjectImg src={musiclibraryimage} />
@@ -122,28 +135,15 @@ const Projects = () => {
         </p>
       </ProjectContainer>
 
-      <h2 className="project-header">EXPRESS API</h2>
-      <ProjectContainer>
-        <p className="project-description-mobile">
-          A web API that makes a series of basic javascript functions accessible
-          through HTTP requests. The project can be viewed via GitHub{" "}
-          <a href="https://github.com/scott-hannabuss/javascript-basics-express">
-            here.
-          </a>
-        </p>
-        <ProjectImg src={expressbasics} />
-      </ProjectContainer>
-
       <h2 className="project-header-desktop">CRUISE SHIP GUI</h2>
       <ProjectContainer>
         <ProjectImg src={cruiseships} />
         <p className="project-description-desktop">
-          This project simulates cruise ships sailing and docking in various
-          ports. The project also has a GUI where the user can control the
-          cruise ship and sail them from port to port via the “Set Sail” button.
-          This project applies concepts of Object-oriented programming and uses
-          Javascript, Jest and Node. An interactive version of the GUI can be
-          viewed{" "}
+          A project that simulates cruise ships sailing and docking from port to
+          port, with an interactive GUI where the user can control the cruise
+          ship and sail them via the “Set Sail” button. This project applies
+          concepts of Object-oriented programming and uses Javascript, Jest and
+          Node. An interactive version of the GUI can be viewed{" "}
           <a href="https://scott-hannabuss.github.io/cruise-ships-/">here</a> or
           the code can be viewed on GitHub{" "}
           <a href="https://github.com/scott-hannabuss/cruise-ships-">here.</a>
@@ -155,9 +155,10 @@ const Projects = () => {
         <p className="project-description-mobile">
           A project which utilises core concepts of Object-oriented programming
           to create Javascript "pets". Each pet can do a series of interactive
-          things. For example, they can get older and hungrier. They can also be
-          fed or taken for walks as they become more hungry and more unfit. The
-          project can be viewed on GitHub{" "}
+          things. For example, as they get older they also get hungrier and more
+          unfit. Users can feed the pets or take them for walks to reduce their
+          hunger or increase their fitness as they age. The project can be
+          viewed on GitHub{" "}
           <a href="https://github.com/scott-hannabuss/virtual-pet">here.</a>
         </p>
         <ProjectImg src={virtualpet} />
